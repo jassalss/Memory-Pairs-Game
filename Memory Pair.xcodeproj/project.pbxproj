@@ -13,6 +13,7 @@
 		8FA1C20C24BC0662009A23D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1C20A24BC0662009A23D6 /* Main.storyboard */; };
 		8FA1C20E24BC0665009A23D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1C20D24BC0665009A23D6 /* Assets.xcassets */; };
 		8FA1C21124BC0665009A23D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1C20F24BC0665009A23D6 /* LaunchScreen.storyboard */; };
+		8FA1C21B24BC0A95009A23D6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA1C21A24BC0A95009A23D6 /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8FA1C20D24BC0665009A23D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FA1C21024BC0665009A23D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FA1C21224BC0665009A23D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA1C21A24BC0A95009A23D6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8FA1C20624BC0662009A23D6 /* SceneDelegate.swift */,
 				8FA1C20824BC0662009A23D6 /* ViewController.swift */,
 				8FA1C20A24BC0662009A23D6 /* Main.storyboard */,
+				8FA1C21A24BC0A95009A23D6 /* CardCell.swift */,
 				8FA1C20D24BC0665009A23D6 /* Assets.xcassets */,
 				8FA1C20F24BC0665009A23D6 /* LaunchScreen.storyboard */,
 				8FA1C21224BC0665009A23D6 /* Info.plist */,
@@ -141,6 +144,7 @@
 				8FA1C20924BC0662009A23D6 /* ViewController.swift in Sources */,
 				8FA1C20524BC0662009A23D6 /* AppDelegate.swift in Sources */,
 				8FA1C20724BC0662009A23D6 /* SceneDelegate.swift in Sources */,
+				8FA1C21B24BC0A95009A23D6 /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
