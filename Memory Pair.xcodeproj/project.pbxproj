@@ -14,6 +14,7 @@
 		8FA1C20E24BC0665009A23D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1C20D24BC0665009A23D6 /* Assets.xcassets */; };
 		8FA1C21124BC0665009A23D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA1C20F24BC0665009A23D6 /* LaunchScreen.storyboard */; };
 		8FA1C21B24BC0A95009A23D6 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA1C21A24BC0A95009A23D6 /* CardCell.swift */; };
+		8FEB2FA424BD630A0001DB9F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8FEB2FA324BD630A0001DB9F /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8FA1C21024BC0665009A23D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FA1C21224BC0665009A23D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA1C21A24BC0A95009A23D6 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		8FEB2FA324BD630A0001DB9F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			children = (
 				8FA1C20324BC0662009A23D6 /* Memory Pair */,
 				8FA1C20224BC0662009A23D6 /* Products */,
+				8FEB2FA224BD630A0001DB9F /* demo */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +71,14 @@
 				8FA1C21224BC0665009A23D6 /* Info.plist */,
 			);
 			path = "Memory Pair";
+			sourceTree = "<group>";
+		};
+		8FEB2FA224BD630A0001DB9F /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				8FEB2FA324BD630A0001DB9F /* demo.gif */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA1C21124BC0665009A23D6 /* LaunchScreen.storyboard in Resources */,
+				8FEB2FA424BD630A0001DB9F /* demo.gif in Resources */,
 				8FA1C20E24BC0665009A23D6 /* Assets.xcassets in Resources */,
 				8FA1C20C24BC0662009A23D6 /* Main.storyboard in Resources */,
 			);
